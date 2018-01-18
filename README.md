@@ -8,7 +8,8 @@ Note: This is a un-signed temporary plugin. Once you restart Firefox again, the 
 
 # How to use:
 1. Navigate to the target webpage.
-2. In the tool bar, cick on the plugin-icon and click on 'Download PDF'
+2. In the tool bar, cick on the plugin-icon and click on 'Download Links'. Refer the green rectangle below.
+![alt text](https://github.com/praboop/downloadlinks/screen.png)
 3. All PDF files in the page would be downloaded to your default "downloads" folder.
 
 Hey! this is a very simple plugin. Don't expect fancy things in this.
