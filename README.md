@@ -1,5 +1,10 @@
 # downloadpdflinks
-Firefox plugin that would download PDF files from the links in the web-page.
+Firefox plugin that would allow the user to specify what kind of files to download (pdf, mp3 etc) and autodownloads all matching files form links.
+
+Installation:
+Open "about:debugging" in Firefox, click "Load Temporary Add-on" and select any file in your extension's directory:
+The extension will now be installed, and will stay until you restart Firefox.
+Note: This is a un-signed temporary plugin. Once you restart Firefox again, the extension would be removed.
 
 How to use:
 1. Navigate to the target webpage.

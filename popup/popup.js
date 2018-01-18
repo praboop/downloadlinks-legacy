@@ -1,7 +1,17 @@
 document.addEventListener("click", function (e) {
-	if (!e.target.classList.contains("page-choice")) {
-		return;
+
+	extension = "";
+	if (e.target.value === "Custom") {
+		extension = document.getElementById("custom").value
+	} else {
+		extension = e.target.value
 	}
+
+	if (extension==="")
+	return;
+
+	extension = extension.toLowerCase();
+
 
 	function onExecuted(result) {
 		//	alert("REUSLT IS " + (typeof result));
@@ -31,8 +41,9 @@ document.addEventListener("click", function (e) {
 
 
 	function download(files) {
-
 		for (index in files) {
+			if (!files[index].toLowerCase().endsWith(extension)) 
+				continue;
 			try {
 				var downloading = browser.downloads.download({
 					url: files[index]

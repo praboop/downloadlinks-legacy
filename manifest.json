@@ -1,10 +1,10 @@
 {
 
   "manifest_version": 2,
-  "name": "Download PDF Links",
+  "name": "Download Links",
   "version": "1.0",
 
-  "description": "Downloads PDF links in a web page",
+  "description": "Download files in a web page",
 
   "icons": {
     "48": "icons/pdf48.png",
@@ -13,11 +13,12 @@
 
   "browser_action": {
     "default_icon": "icons/pdf48.png",
-    "default_title": "Download PDF",
+    "default_title": "Download Links",
     "default_popup": "popup/popup.html"
   },
 
   "permissions": [
+    "storage",
     "activeTab",
     "downloads",
     "downloads.open"
