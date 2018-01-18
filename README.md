@@ -16,5 +16,5 @@ Firefox plugin that would allow the user to specify what kind of files to downlo
 1. Navigate to the target webpage.
 2. In the tool bar, cick on the plugin-icon and click on 'Download Links'. Refer the green rectangle below.
 ![alt text](https://github.com/praboop/downloadlinks/blob/master/screen.png)
-3. All PDF files in the page would be downloaded to your default "downloads" folder.
+3. The extension file selected for download would be downloaded to firefox default "downloads" folder.
 
